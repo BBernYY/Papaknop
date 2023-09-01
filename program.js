@@ -1,4 +1,4 @@
-const WEBHOOK_URL = secret
+const WEBHOOK_URL = ${{ secrets.SuperSecret }}
 function awaken(){
     var request = new XMLHttpRequest();
     request.open("POST", WEBHOOK_URL);
