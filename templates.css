@@ -1,5 +1,11 @@
 html, body {
     background-color: var(--bgcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html {
+    height: 100%
 }
 p {
     color: var(--color);
@@ -9,6 +15,7 @@ p {
 h1 {
         color: var(--color);
         font-family: var(--fonttype);
+        font-size: 10vh;
 }
 .button {
     background-color: var(--buttoncolor);
@@ -28,8 +35,8 @@ h1 {
     width: fit-content;
 }
 .button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 3px 3px #00000040;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 10px #00000040;
 }
 .button:active {
     transform: none;
@@ -55,4 +62,7 @@ input {
     border: none;
     background-color: var(--buttoncolor);
     color: var(--color);
+}
+div {
+    text-align: center;
 }
