@@ -1,4 +1,4 @@
-const WEBHOOK_URL = secret
+WEBHOOK_URL = window.prompt("url?","");
 function awaken(){
     var request = new XMLHttpRequest();
     request.open("POST", WEBHOOK_URL);
